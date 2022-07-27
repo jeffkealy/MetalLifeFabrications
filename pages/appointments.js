@@ -9,7 +9,7 @@ const appointments = () => {
         <span>Appointments</span>
       </h1>
       <div className={appointmentStyles.img}>
-        <Image src={engine}></Image>
+        <Image src={engine} alt="engine"></Image>
       </div>
       <div className={`${appointmentStyles.appointments} ${appointmentStyles.section}`}>
         <div>Fridays, 2pm-5pm</div>

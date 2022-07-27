@@ -8,7 +8,6 @@ const Nav = () => {
       <Link href="#">
         <a className={navStyles.mobileLogo}>
           <div className={navStyles.title}>Metal Life Fabrications</div>
-          {/* <Image src={logo} alt="" srcset="" /> */}
         </a>
       </Link>
       <div className={navStyles.sideNav}>
@@ -22,7 +21,6 @@ const Nav = () => {
 
       <Link href="/">
         <a className={navStyles.logo}>
-          {/* <Image className={navStyles.img} src={logo} alt="" srcset="" /> */}
           <div className={navStyles.title}>Metal Life Fabrications</div>
         </a>
       </Link>

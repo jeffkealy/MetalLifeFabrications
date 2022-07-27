@@ -59,19 +59,19 @@ const Carousel = () => {
       <div onClick={() => click()} className={`${homeStyles.carousel} ${clicked ? homeStyles.carouselLarge : ""}`}>
         <Slider {...settings}>
           <div className={homeStyles.slide}>
-            <Image className={homeStyles.img} src={greenHood} alt="" srcset="" />
+            <Image className={homeStyles.img} src={greenHood} alt="" srcSet="" />
           </div>
           <div className={homeStyles.slide}>
-            <Image className={homeStyles.img} src={redTrunk} alt="" srcset="" />
+            <Image className={homeStyles.img} src={redTrunk} alt="" srcSet="" />
           </div>
           <div className={homeStyles.slide}>
-            <Image className={homeStyles.img} src={turqunderhood} alt="" srcset="" />
+            <Image className={homeStyles.img} src={turqunderhood} alt="" srcSet="" />
           </div>
           <div className={homeStyles.slide}>
-            <Image className={homeStyles.img} src={turqChassis} alt="" srcset="" />
+            <Image className={homeStyles.img} src={turqChassis} alt="" srcSet="" />
           </div>
           <div className={homeStyles.slide}>
-            <Image className={homeStyles.img} src={greenHood2} alt="" srcset="" />
+            <Image className={homeStyles.img} src={greenHood2} alt="" srcSet="" />
           </div>
         </Slider>
       </div>
