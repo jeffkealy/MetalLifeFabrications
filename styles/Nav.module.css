@@ -73,18 +73,18 @@
     flex-wrap: wrap;
     padding: 0px 0 20px;
   }
-  #nav .title {
-    padding: 20px 0;
-  }
+
   #nav .logo {
     display: none;
   }
   .mobileLogo {
     display: block;
-    width: 100%;
-    flex: 1;
-    flex: 0 0 100%;
-    margin-bottom: 20px;
+    width: auto;
+    margin: 20px;
+  }
+  #nav .title {
+    padding: 20px 0;
+    width: auto;
   }
   #nav .non-image {
     padding: 5px 10px;
