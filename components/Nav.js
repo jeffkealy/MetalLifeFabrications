@@ -4,7 +4,7 @@ import navStyles from "../styles/Nav.module.css";
 const Nav = () => {
   return (
     <div id={navStyles.nav}>
-      <Link href="#">
+      <Link href="/">
         <a className={navStyles.mobileLogo}>
           <div className={navStyles.title}>Metal Life Fabrications</div>
         </a>
