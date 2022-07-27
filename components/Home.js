@@ -22,7 +22,7 @@ const home = () => {
           <li className={homeStyles.li}>Exhaust work</li>
         </ul>
         <div className={homeStyles.octoheader}>
-          <Image src={octoHeader} />
+          <Image src={octoHeader} alt="octoheader" />
         </div>
       </div>
     </div>
