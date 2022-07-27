@@ -1,5 +1,5 @@
 import Slider from "react-slick";
-import Image from "next/Image";
+import Image from "next/image";
 import greenHood from "../public/greenHood.jpg";
 import redTrunk from "../public/redTrunk.jpg";
 import turqunderhood from "../public/turqunderhood.jpg";
