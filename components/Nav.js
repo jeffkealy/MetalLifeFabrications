@@ -1,6 +1,5 @@
 import Link from "next/link";
-import Image from "next/image";
-import logo from "../public/Octoheader.svg";
+
 import navStyles from "../styles/Nav.module.css";
 
 const Nav = () => {

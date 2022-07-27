@@ -3,7 +3,7 @@ import infoStyles from "../styles/Info.module.css";
 const Info = () => {
   return (
     <div id={infoStyles.infoPage}>
-      <h1 className={infoStyles.header}>
+      <h1 className="header">
         <span>Info</span>
       </h1>
       <div className={infoStyles.body}>
@@ -21,7 +21,7 @@ const Info = () => {
             <div>Monday - Friday</div>
             <div>9am - 5pm</div>
           </div>
-          <div className={`${infoStyles.appointments} $${infoStyles.section}`}>
+          <div className={`${infoStyles.appointments} ${infoStyles.section}`}>
             <span className={infoStyles.title}>Appointments: </span>
             <div>Fridays, 2pm-5pm</div>
           </div>

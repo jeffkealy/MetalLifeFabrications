@@ -1,0 +1,12 @@
+#galleryPage {
+  position: relative;
+}
+
+.img {
+  max-width: 700px;
+  margin: 0 auto;
+  opacity: 0.1;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
