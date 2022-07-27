@@ -1,0 +1,25 @@
+#infoPage {
+  font-weight: normal;
+  max-width: 580px;
+  margin: 0 auto;
+  font-size: 18px;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+}
+.section {
+  margin: 25px auto;
+}
+.title {
+  display: block;
+  color: var(--burnt-sienna);
+  padding-bottom: 1px;
+}
+.header > span {
+  color: var(--burnt-sienna);
+  padding: 8px 30px;
+  border: 3px solid #97c4b2;
+  border-radius: 50px;
+  display: inline-block;
+}

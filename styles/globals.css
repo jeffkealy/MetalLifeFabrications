@@ -1,11 +1,41 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
+:root {
+  /* palette #4342 */
+  --brown-dark: #4e362a;
+  --brown: #5f3e3a;
+  --brown-purple: #4d4049;
+  --purple-dark: #282637;
+  --blue-soft: #53627a;
+  --olive-green: #8c9da7;
+
+  --white: #dcd9d3;
+  --orange: #be3d2d;
+  --green-dark: #16201c;
+
+  --gray-regent: #8c9da7;
+  --brandy-rose: #c09183;
+  --panch: #eabc9e;
+  --Botticelli: #c6e0e5;
+
+  --bali-hai-gray: #8c9da7;
+  --burnt-sienna: rgb(241, 116, 91);
+  --thatch: #ba9fa0;
+  --shadow-green: #97c4b2;
+  --charde: #2b2b3b;
+}
+body,
+html {
+  height: 100%;
+}
+body {
+  /* background-color: var(--brown-dark); */
+  background: linear-gradient(to bottom, var(--charde), var(--brown-purple));
+  background-attachment: fixed;
+  color: var(--white);
+  font-family: "Roboto ", sans-serif;
+}
 a {
   color: inherit;
   text-decoration: none;
@@ -13,6 +43,10 @@ a {
 
 * {
   box-sizing: border-box;
+}
+.slick-slider .slick-prev:before,
+.slick-slider .slick-next:before {
+  color: var(--charde);
 }
 
 @media (prefers-color-scheme: dark) {

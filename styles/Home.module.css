@@ -1,129 +1,97 @@
-.container {
-  padding: 0 2rem;
+#home {
+  margin: 30px 20px 20px;
+  display: flex;
+  justify-content: center;
+
+  gap: 25px;
+  max-width: 100%;
+}
+.title .span {
+}
+.carouselContainer,
+.whatWeDo {
+}
+.carouselContainer {
+  padding: 0px 30px;
+  display: flex;
+  justify-content: end;
+}
+.carousel {
+  border-radius: 5px;
+  font-size: 0;
+  max-width: 540px;
+}
+.carouselLarge {
+  transform: scale(1.5);
 }
 
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
+.slide {
+  box-shadow: 0px 0px 12px var(--charde);
+}
+
+.slide .img {
+  width: auto;
+  border-radius: 5px;
+}
+.whatWeDo {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
-
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
+.whatWeDo .title span {
+  border-radius: 50px;
+  border: 2px solid rgba(151, 196, 178, 0.6);
+  padding: 9px 20px 8px;
+  font-size: 24px;
+  color: var(--burnt-sienna);
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: capitalize;
+  border-bottom: none;
 }
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
-
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-}
-
-.title,
-.description {
-  text-align: center;
-}
-
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
-}
-
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
-}
-
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
-}
-
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
+.whatWeDo .list {
   text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+  margin: 5px auto 30px;
+  border-radius: 20px;
+  border: 2px solid rgba(151, 196, 178, 0.8);
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+.list .li {
+  margin: 10px auto;
+  font-size: 20px;
+  list-style: "✔";
+  padding: 0 20px 0 10px;
+  text-transform: capitalize;
 }
-
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
+.octoheader {
+  max-width: 400px;
+  align-self: center;
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
 }
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
+.octoheader svg {
+  fill: red;
 }
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
+@media screen and (max-width: 1033px) {
+  #home {
+    flex-wrap: wrap;
+  }
+  .whatWeDo {
+    min-width: 0;
+  }
+  .whatWeDo .title {
+    margin: 20px 0 0;
+  }
 }
-
-@media (max-width: 600px) {
-  .grid {
+@media screen and (max-width: 514px) {
+  .carouselContainer {
+    padding: 0;
     width: 100%;
-    flex-direction: column;
   }
-}
-
-@media (prefers-color-scheme: dark) {
-  .card,
-  .footer {
-    border-color: #222;
-  }
-  .code {
-    background: #111;
-  }
-  .logo img {
-    filter: invert(1);
+  .carousel {
+    margin: 0 0;
+    width: 100%;
   }
 }

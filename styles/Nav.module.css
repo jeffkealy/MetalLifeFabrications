@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
+
+#nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0;
+  border-radius: 5px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+#nav a {
+  color: var(--dark-blue);
+  font-weight: 400;
+  font-size: 22px;
+  transition: 0.2s all ease-in-out;
+  padding: 5px 15px;
+  border-radius: 20px;
+}
+#nav a:hover {
+  box-shadow: inset 0 0 19px 4px #97c4b2;
+  color: var(--burnt-sienna);
+}
+#nav .logo {
+  max-width: none;
+  margin: 0 30px;
+  position: relative;
+  border-radius: 50px;
+  padding: 5px 20px;
+  animation: flash 1s ease-in;
+}
+#nav .logo:hover {
+  box-shadow: inset 0 0 19px 4px #8c9da7;
+}
+.logo .img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 150px;
+}
+#nav .title {
+  font-family: "Cormorant SC", serif;
+  width: 100%;
+  font-size: 50px;
+  text-align: center;
+  font-weight: 700;
+  top: 3px;
+  border-radius: 50px;
+  text-shadow: 0px 0px 30px var(--burnt-sienna);
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: var(--burnt-sienna);
+  color: #fff;
+}
+#nav .title:hover {
+}
+.sideNav {
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+}
+
+.mobileLogo {
+  display: none;
+}
+@media screen and (max-width: 1045px) {
+  #nav .logo {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 762px) {
+  #nav {
+    flex-wrap: wrap;
+    padding: 20px 0;
+  }
+  #nav .title {
+    padding-bottom: 20px;
+  }
+  #nav .logo {
+    display: none;
+  }
+  .mobileLogo {
+    display: block;
+    width: 100%;
+    flex: 1;
+    flex: 0 0 100%;
+  }
+  #nav .non-image {
+    padding: 5px 10px;
+  }
+}
+@media screen and (max-width: 401px) {
+  .sideNav {
+    justify-content: center;
+  }
+}
+@keyframes flash {
+  0% {
+    box-shadow: inset 0 0 10px 35px #8c9da7;
+  }
+  45% {
+    box-shadow: inset 0 0 8px 3px #8c9da7;
+  }
+  60% {
+    box-shadow: inset 0 0 0px 3px #8c9da7;
+  }
+  75% {
+    box-shadow: inset 0 0 19px 4px #8c9da7;
+  }
+  100% {
+    box-shadow: inset 0 0 0px 0px #8c9da7;
+  }
+}
