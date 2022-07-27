@@ -6,6 +6,7 @@
   --brown-dark: #4e362a;
   --brown: #5f3e3a;
   --brown-purple: #4d4049;
+  --brown-purple-2: #4a393f;
   --purple-dark: #282637;
   --blue-soft: #53627a;
   --olive-green: #8c9da7;
@@ -24,17 +25,18 @@
   --thatch: #ba9fa0;
   --shadow-green: #97c4b2;
   --charde: #2b2b3b;
+
+  --light-blue: #7991ec;
 }
 body,
 html {
 }
 body {
-  background-image: linear-gradient(180deg, var(--charde), var(--brown-purple));
-  background-size: cover;
+  background-image: linear-gradient(180deg, var(--charde), var(--brown-purple), #4a393f);
+  background-repeat: no-repeat;
   background-position: top;
   background-attachment: fixed;
   color: var(--white);
-
   font-family: "Roboto ", sans-serif;
   margin: 0;
 }

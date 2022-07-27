@@ -71,10 +71,10 @@
 @media screen and (max-width: 762px) {
   #nav {
     flex-wrap: wrap;
-    padding: 20px 0;
+    padding: 0px 0 20px;
   }
   #nav .title {
-    padding-bottom: 20px;
+    padding: 20px 0;
   }
   #nav .logo {
     display: none;
@@ -84,6 +84,7 @@
     width: 100%;
     flex: 1;
     flex: 0 0 100%;
+    margin-bottom: 20px;
   }
   #nav .non-image {
     padding: 5px 10px;
